@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<efcore context-namespace="GarageV25" schema="GarageV25" namespace="GarageV25" p1:Guid="23060164-4d20-4da0-813d-561cf163fc29" xmlns:p1="http://devart.com/schemas/EntityDeveloper/1.0">
+  <class name="Vehicles" entity-set="Vehicles" table="Vehicles" schema="GarageV25" p1:Guid="6e7f7c62-fef0-4372-9867-749b87d9e0d4">
+    <Documentation>
+      <Summary>Storing all Vehicles parked in the Garage</Summary>
+    </Documentation>
+    <id name="Id" type="Int32" p1:ValidateRequired="true" p1:Guid="f76b1eb5-1949-414f-a514-514ae64ab828">
+      <column name="" />
+    </id>
+  </class>
+  <class name="Person" entity-set="People" table="Person" schema="GarageV25" p1:Guid="3b729f3d-c58b-42ba-a417-c85534c570f4">
+    <id name="Id" type="Int32" p1:ValidateRequired="true" p1:Guid="ed9f1d46-904c-4381-b427-7f571cf6639f">
+      <column name="" />
+    </id>
+  </class>
+  <class name="Parking" entity-set="Parkings" table="Parkings" schema="GarageV25" p1:Guid="5af5e7fe-a9e2-46bd-ba4d-8e097270f670">
+    <id name="Id" type="Int32" p1:ValidateRequired="true" p1:Guid="26fa31d6-585a-47df-a7be-fd3a16429538">
+      <column name="" />
+    </id>
+  </class>
+  <class name="ParkingViewModel" entity-set="ParkingViewModels" p1:Guid="56c2fa22-52ed-4ec7-b150-ee9f65a60f70">
+    <id name="Id" type="Int32" p1:ValidateRequired="true" p1:Guid="13a1e806-7def-43fa-9c36-447fb75e74d9">
+      <column name="" />
+    </id>
+  </class>
+  <class name="GarageV25ViewModel" entity-set="GarageV25ViewModels" p1:Guid="86081acf-6cf9-4212-9816-4301fd36dbe7" />
+  <class name="AdminViewModel" entity-set="AdminViewModels" p1:Guid="fce342ba-5abe-41ab-b574-513ea84d1e9b" />
+</efcore>

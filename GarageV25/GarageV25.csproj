@@ -16,4 +16,17 @@
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <None Update="DEV_ART_Files\GaragetV25.efml">
+      <Generator>DevartEFCoreGenerator</Generator>
+      <LastGenOutput>GaragetV25.info</LastGenOutput>
+    </None>
+    <None Update="DEV_ART_Files\GaragetV25.info">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>GaragetV25.efml</DependentUpon>
+    </None>
+  </ItemGroup>
+
 </Project>
